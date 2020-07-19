@@ -100,4 +100,4 @@ theme: aircv
 deploy:
   type: git
   repo: https://<token>@github.com/rayspock/rayspock.github.io.git
-  branch: gh-pages
+  branch: master

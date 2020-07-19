@@ -23,7 +23,7 @@ favicon:
 header_logo:
 header_logo_dark:
 footer_logo:
-slider: img/1920x1080/02.jpg
+slider: img/portfolio.jpg
 
 # About
 about:
@@ -86,7 +86,7 @@ work:
   items:
 
     - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
-      image: "img/ray/coolx.jpg"
+      image: "img/coolx.jpg"
       hide_text: "Hide"
       title: "Cool X Wallet"
       subtitle: ""
@@ -102,7 +102,7 @@ work:
         - text: "Docker"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4"
-      image: "img/ray/coolwallet.jpg"
+      image: "img/coolwallet.jpg"
       hide_text: "Hide"
       title: "CoolWallet S"
       subtitle: ""
@@ -118,7 +118,7 @@ work:
         - text: "CI/CD"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
-      image: "img/ray/clean-captain.jpg"
+      image: "img/clean-captain.jpg"
       hide_text: "Hide"
       title: "Clean Captain"
       subtitle: "Chrome extension"
@@ -133,7 +133,7 @@ work:
         - text: "JavaScript"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/ray/bridge.jpg"
+      image: "img/bridge.jpg"
       hide_text: "Hide"
       title: "Sygna Bridge Demo"
       subtitle: ""
@@ -149,7 +149,7 @@ work:
         - text: "Typescript"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/ray/ding.jpg"
+      image: "img/ding.jpg"
       hide_text: "Hide"
       title: "Ding-Ding"
       subtitle: ""
