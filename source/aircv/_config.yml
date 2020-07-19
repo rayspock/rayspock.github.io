@@ -1,0 +1,165 @@
+# Header
+menu:
+  Home: "#body"
+  About: "#about"
+  Experience: "#experience"
+  Work: "#work"
+  Contact: "#contact"
+  Blog: "https://dev.to/rayspock"
+
+first_name: Ray
+last_name: Yang
+job_title:
+- Full Stack Developer
+- Solution Architect
+
+social:
+  icon-social-linkedin: https://linkedin.com/in/rayspock
+  icon-social-github: https://github.com/rayspock
+  icon-social-twitter: https://twitter.com/rayspock675
+  
+# Miscellaneous
+favicon: 
+header_logo:
+header_logo_dark:
+footer_logo:
+slider: img/1920x1080/02.jpg
+
+# About
+about:
+  title: "Intro"
+  subtitle: ""
+  description:
+    "I worked with different kind of industries including Blockchain, FinTech, Education, Healthcare and Retail to build extraordinary things for extraordinary people. My strengths are mostly in backend, but I can do frontend like HTML/CSS, JS (React, jQuery, etc), which enable me to create everything from small business websites to custom web applications.
+    <br> <br> Developer with 6+ years of experience in full-stack development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
+  years_exp: 6
+  skills:
+    - name: Java
+      years: 3
+    - name: JavaScript
+      years: 2
+    - name: AWS
+      years: 2
+    - name: React
+      years: 1.5
+
+# Contacts
+contact:
+  title: Contacts
+  subtitle:
+  items:
+    - title: LinkedIn
+      content: Ray Yang
+      href: "https://linkedin.com/in/rayspock"  
+    - title: Email
+      content: rayspock@protonmail.com
+      href: "mailto:rayspock@protonmail.com"
+    - title: Web
+      content: rayspock.github.io
+      href: "https://rayspock.github.io/"
+
+# Experience
+exp:
+  title: Experience
+  subtitle:
+  items:
+    - title: Solution Architect
+      content: "Identified key areas of technical risk or complexity, proposed appropriate Proofs of Concepts (POCs)."
+      href: "#work"
+      icon: "icon-layers"
+      featured: false
+    - title: Back-End
+      content: "Built Hardware Security Module (HSM) infrastructure for Cool X Wallet in SBI BITS."
+      href: "#work"
+      icon: "color-white icon-chemistry"
+      featured: true
+    - title: Full Stack
+      content: "Implemented React Native based CoolWallet S App which is a hardware wallet to secure customer's crypto assets."
+      href: "#work"
+      icon: "icon-badge"
+      featured: false
+
+# Work
+work:
+  title: Works
+  subtitle:
+  items:
+
+    - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
+      image: "img/ray/coolx.jpg"
+      hide_text: "Hide"
+      title: "Cool X Wallet"
+      subtitle: ""
+      description: "<p>Credit Card-Sized Bluetooth hardware wallet to secure customer's crypto assets. </p>
+      <p> I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in <a href='https://www.sbibits.com/' target='_blank' rel='noopener'>SBI BITS</a>.</p>
+      "
+      cta: "View Project"
+      href: "https://www.sbicxw.com/"
+      tools:
+        - text: "React Native"
+        - text: "AWS Cloud HSM"
+        - text: "Java WebSocket"
+        - text: "Docker"
+
+    - grid_class: "col-xs-12 col-sm-6 col-md-4"
+      image: "img/ray/coolwallet.jpg"
+      hide_text: "Hide"
+      title: "CoolWallet S"
+      subtitle: ""
+      description: "<p>Bluetooth hardware wallet for Bitcoin, Ethereum, Litecoin, XRP, Bitcoin Cash, and ERC20 Tokens.</p>
+      <p>A hardware wallet is a special type of bitcoin wallet which stores the user's private keys in a secure hardware device.</p>
+      "
+      cta: "View Project"
+      href: "https://www.coolwallet.io/"
+      tools:
+        - text: "React Native"
+        - text: "Node.js"
+        - text: "Blockchain"
+        - text: "CI/CD"
+
+    - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
+      image: "img/ray/clean-captain.jpg"
+      hide_text: "Hide"
+      title: "Clean Captain"
+      subtitle: "Chrome extension"
+      description: "<p>Clean Captain is a lightweight extension that enables you to remove the cookies from most websites need cookies enabled to work properly.</p>
+      <p>Protect your privacy and delete all activity from specifying websites. You can keep sessions or cookies from those websites you trust.</p>
+      "
+      cta: "View Project"
+      href: "https://github.com/rayspock/clean-captain"
+      tools:
+        - text: "Chrome APIs"
+        - text: "HTML/CSS"
+        - text: "JavaScript"
+
+    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+      image: "img/ray/bridge.jpg"
+      hide_text: "Hide"
+      title: "Sygna Bridge Demo"
+      subtitle: ""
+      description: "<p><a href='https://www.sygna.io/bridge/' target='_blank' rel='noopener'>Sygna Bridges</a> the Gap Between the Virtual Asset Industry and Mainstream Finance</p>
+      <p>Visually exploring Sygna Bridge which enabling VASPs to collect and exchange compliance-required transaction information.</p>
+      "
+      cta: "View Project"
+      href: "https://coolbitx-technology.github.io/sygna-bridge-demo/"
+      tools:
+        - text: "React"
+        - text: "Redux"
+        - text: "Saga"
+        - text: "Typescript"
+
+    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+      image: "img/ray/ding.jpg"
+      hide_text: "Hide"
+      title: "Ding-Ding"
+      subtitle: ""
+      description: "<p>Online food ordering platform</p>
+      <p>Real-time communication system built with SockJS and the front-end as Progressive Web Apps with React.</p>
+      "
+      cta: "View Project"
+      href: "https://github.com/rayspock/dingding"
+      tools:
+        - text: "React"
+        - text: "JavaScript"
+        - text: "SockJS"
+        - text: "ZeroMQ"

@@ -1,0 +1,40 @@
+name: deploy
+
+on:
+  push:
+   paths-ignore:
+    - '*.md' 
+   branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        node-version: [10.x]  
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Prepare source
+        run: |
+          cp -R source/aircv/ themes/aircv/
+          npm install
+      - name: Run hexo generate
+        run: |
+          npm i -g hexo-cli
+          hexo generate
+      - name: Run hexo deploy
+        env:
+            GH_DEPLOY_TOKEN: ${{secrets.GH_DEPLOY_TOKEN}}
+        run: |
+          git config --global user.name 'rayspock'
+          git config --global user.email 'rayspock@protonmail.com'
+          sed -i "s/<token>/${GH_DEPLOY_TOKEN}/g" ./_config.yml
+          hexo deploy
