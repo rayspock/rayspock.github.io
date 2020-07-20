@@ -4,13 +4,14 @@
 
 # Site
 title: 'Ray Yang'
-type: 'blog'
+type: 'website'
 subtitle: ''
 description: 'Developer. Loving to solve the challenging stuff. Moving toward the excelling Hacker.'
 keywords:
 author: 'Rayspock'
 language: en
 timezone: ''
+fb_app_id: '3510555088963451'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
