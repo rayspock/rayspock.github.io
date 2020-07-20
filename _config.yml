@@ -4,8 +4,9 @@
 
 # Site
 title: 'Ray Yang'
+type: 'blog'
 subtitle: ''
-description: 'Ray Yang is a Developer. Loving to solve the challenging stuff. Moving toward the excelling Hacker.'
+description: 'Developer. Loving to solve the challenging stuff. Moving toward the excelling Hacker.'
 keywords:
 author: 'Rayspock'
 language: en
