@@ -1,1 +1,1 @@
-# [About Me](https://rayspock.github.io)
+# [About Me](https://rayspock.com)
