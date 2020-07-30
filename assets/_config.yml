@@ -26,6 +26,7 @@ slider: img/portfolio.jpg
 open_graph: img/open_graph.jpg
 ga_tracking_id: 'UA-173384207-1'
 ga_script_url: 'https://www.googletagmanager.com/gtag/js?id=UA-173384207-1'
+hotjar_id: '1924229'
 
 # About
 about:
