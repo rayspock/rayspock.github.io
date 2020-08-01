@@ -99,10 +99,11 @@ work:
       cta: "View Project"
       href: "https://www.sbicxw.com/"
       tools:
-        - text: "React Native"
+        - text: "Java"
+        - text: "Netty"
         - text: "AWS Cloud HSM"
-        - text: "Java WebSocket"
         - text: "Docker"
+        - text: "Blockchain"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4"
       image: "img/coolwallet.jpg"
