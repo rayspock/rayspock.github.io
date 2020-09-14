@@ -9,8 +9,7 @@ menu:
 first_name: Ray
 last_name: Yang
 job_title:
-- Full Stack Developer
-- Solution Architect
+- Software Engineer
 
 social:
   icon-social-linkedin: https://linkedin.com/in/rayspock
@@ -34,7 +33,7 @@ about:
   subtitle: ""
   description:
     "I worked with different kind of industries including Blockchain, FinTech, Education, Healthcare and Retail to build extraordinary things for extraordinary people. My strengths are mostly in backend, but I can do frontend like HTML/CSS, JS (React, jQuery, etc), which enable me to create everything from small business websites to custom web applications.
-    <br> <br> Developer with 6+ years of experience in full-stack development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
+    <br> <br> Over six years of experience in software development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
   years_exp: 6
   skills:
     - name: Java
@@ -122,19 +121,18 @@ work:
         - text: "CI/CD"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
-      image: "img/clean-captain.jpg"
+      image: "img/blockchain.jpg"
       hide_text: "Hide"
-      title: "Clean Captain"
-      subtitle: "Chrome extension"
-      description: "<p>Clean Captain is a lightweight extension that enables you to remove the cookies from most websites need cookies enabled to work properly.</p>
-      <p>Protect your privacy and delete all activity from specifying websites. You can keep sessions or cookies from those websites you trust.</p>
+      title: "Spark API"
+      subtitle: "Forked from kyuupichan/electrumx"
+      description: "<p>Built RESTful API on Python-based ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.</p>
       "
       cta: "View Project"
-      href: "https://github.com/rayspock/clean-captain"
+      href: "https://github.com/rayspock/electrumx"
       tools:
-        - text: "Chrome APIs"
-        - text: "HTML/CSS"
-        - text: "JavaScript"
+        - text: "Python"
+        - text: "RESTful"
+        - text: "Blockchain"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
       image: "img/bridge.jpg"
