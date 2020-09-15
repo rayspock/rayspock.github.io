@@ -120,7 +120,7 @@ work:
         - text: "Blockchain"
         - text: "CI/CD"
 
-    - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
+    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
       image: "img/blockchain.jpg"
       hide_text: "Hide"
       title: "Spark API"
