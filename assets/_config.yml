@@ -37,13 +37,15 @@ about:
   years_exp: 6
   skills:
     - name: Java
-      years: 5
+      years: 4
+    - name: Golang
+      years: 1
     - name: JavaScript
-      years: 3
-    - name: AWS
       years: 2
     - name: React
       years: 1.5
+    - name: AWS
+      years: 2
 
 # Contacts
 contact:
@@ -116,7 +118,7 @@ work:
       href: "https://www.coolwallet.io/"
       tools:
         - text: "React Native"
-        - text: "Node.js"
+        - text: "Golang"
         - text: "Blockchain"
         - text: "CI/CD"
 
