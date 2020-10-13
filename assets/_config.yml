@@ -73,12 +73,12 @@ exp:
       icon: "icon-layers"
       featured: false
     - title: Back-End
-      content: "Built Hardware Security Module (HSM) infrastructure for Cool X Wallet in SBI BITS."
+      content: "Successfully facilitated the launch of Cool X Wallet in SBI BITS in Japan by building a hardware security module (HSM) infrastructure using Java Spring Boot."
       href: "#work"
       icon: "color-white icon-chemistry"
       featured: true
     - title: Full Stack
-      content: "Implemented React Native based CoolWallet S App which is a hardware wallet to secure customer's crypto assets."
+      content: "Provided the highest level of security for crypto assets utilizing JavaScript and React Native."
       href: "#work"
       icon: "icon-badge"
       featured: false
@@ -127,13 +127,13 @@ work:
       hide_text: "Hide"
       title: "Spark API"
       subtitle: "Forked from kyuupichan/electrumx"
-      description: "<p>Built RESTful API on Python-based ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.</p>
+      description: "<p>Built REST APIs on Python-based ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.</p>
       "
       cta: "View Project"
       href: "https://github.com/rayspock/electrumx"
       tools:
         - text: "Python"
-        - text: "RESTful"
+        - text: "REST API"
         - text: "Blockchain"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
@@ -153,17 +153,16 @@ work:
         - text: "Typescript"
 
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/ding.jpg"
+      image: "img/resumake.jpg"
       hide_text: "Hide"
-      title: "Ding-Ding"
+      title: "resumake"
       subtitle: ""
-      description: "<p>Online food ordering platform</p>
-      <p>Real-time communication system built with SockJS and the front-end as Progressive Web Apps with React.</p>
+      description: "<p>Resumake is a website for automatically generating elegant LaTeX resumes without the need to write any TeX code yourself.</p>
+      <p>As an open-source contributor, I provided a solution by developing a new template to choose from, which enable users to highlight their resumes.</p>
       "
       cta: "View Project"
-      href: "https://github.com/rayspock/dingding"
+      href: "https://resumake.io/"
       tools:
         - text: "React"
+        - text: "Node.js"
         - text: "JavaScript"
-        - text: "SockJS"
-        - text: "ZeroMQ"
