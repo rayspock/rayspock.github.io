@@ -32,18 +32,16 @@ about:
   title: "Intro"
   subtitle: ""
   description:
-    "I worked with different kind of industries including Blockchain, FinTech, Education, Healthcare and Retail to build extraordinary things for extraordinary people. My strengths are mostly in backend, but I can do frontend like HTML/CSS, JS (React, Redux, etc), which enable me to create everything from small business websites to custom web applications.
-    <br> <br> Over six years of experience in software development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
+    "I worked with different industries, including Blockchain, FinTech, Education, Healthcare and Retail, to build extraordinary things for extraordinary people. My strengths are mostly in the backend, but I can do frontend like HTML/CSS, JS (React, Redux, etc.), which enable me to create everything from small business websites to custom web applications.
+    <br> <br> Over six years of experience in software development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process, including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
   years_exp: 6
   skills:
-    - name: Java
-      years: 4
+    - name: JavaScript
+      years: 3
     - name: Golang
       years: 1
-    - name: JavaScript
-      years: 2
     - name: React
-      years: 1.5
+      years: 2
     - name: AWS
       years: 2
 
@@ -78,7 +76,7 @@ exp:
       icon: "color-white icon-chemistry"
       featured: true
     - title: Full Stack
-      content: "Provided the highest level of security for crypto assets utilizing JavaScript and React Native."
+      content: "Provided the highest level of security for crypto assets utilizing JavaScript and React Native. As a result, our wallets have sold over a hundred thousand worldwide."
       href: "#work"
       icon: "icon-badge"
       featured: false
