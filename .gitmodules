@@ -1,3 +1,3 @@
-[submodule "themes/aircv"]
-	path = themes/aircv
-	url = https://github.com/rayspock/hexo-theme-aircv.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
