@@ -1,92 +1,46 @@
-# Header
+baseURL: "https://rayspock.com/"
+defaultContentLanguage: "en"
+languageCode: "en-gb"
+title: "Ray Yang"
+theme: "beautifulhugo"
+googleAnalytics: "UA-173384207-1"
+enableEmoji: true
+enableGitInfo: true
+
+params:
+  subtitle: "Developer. Loving to solve the challenging stuff. Moving toward the excelling Hacker."
+  commit: "https://github.com/rayspock/rayspock.github.io/tree/"
+  logo: "img/portfolio.png"
+  mainSections: ["posts"]
+  readingTime: true
+  wordCount: true
+
+author:
+  name: "rayspock"
+  website: "https://rayspock.com/"
+  email: "rayspock@protonmail.com"
+  github: "rayspock"
+  twitter: "rayspock675"
+  linkedin: "rayspock"
+
+# Navbar
 menu:
-  Home: "#body"
-  About: "#about"
-  Experience: "#experience"
-  Work: "#work"
-  Contact: "#contact"
+  main:
+    - name: "About"
+      pre: '<i class="far fa-user fa-lg"></i>'
+      url: "page/about/"
+      weight: 2
 
-first_name: Ray
-last_name: Yang
-job_title:
-- Software Engineer
-
-social:
-  icon-social-linkedin: https://linkedin.com/in/rayspock
-  icon-social-github: https://github.com/rayspock
-  icon-social-twitter: https://twitter.com/rayspock675
-  
-# Miscellaneous
-favicon: 
-header_logo:
-header_logo_dark:
-footer_logo:
-slider: img/portfolio.jpg
-open_graph: img/open_graph.jpg
-ga_tracking_id: 'UA-173384207-1'
-ga_script_url: 'https://www.googletagmanager.com/gtag/js?id=UA-173384207-1'
-hotjar_id: '1924229'
-
-# About
-about:
-  title: "Intro"
-  subtitle: ""
-  description:
-    "I worked with different industries, including Blockchain, FinTech, Education, Healthcare and Retail, to build extraordinary things for extraordinary people. My strengths are mostly in the backend, but I can do frontend like HTML/CSS, JS (React, Redux, etc.), which enable me to create everything from small business websites to custom web applications.
-    <br> <br> Over six years of experience in software development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process, including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance."
-  years_exp: 6
-  skills:
-    - name: JavaScript
-      years: 3
-    - name: Golang
-      years: 1
-    - name: React
-      years: 2
-    - name: AWS
-      years: 2
-
-# Contacts
-contact:
-  title: Contacts
-  subtitle:
-  items:
-    - title: LinkedIn
-      content: Ray Yang
-      href: "https://linkedin.com/in/rayspock"  
-    - title: Email
-      content: rayspock@protonmail.com
-      href: "mailto:rayspock@protonmail.com"
-    - title: Web
-      content: rayspock.com
-      href: "https://rayspock.com/"
-
-# Experience
-exp:
-  title: Experience
-  subtitle:
-  items:
-    - title: Solution Architect
-      content: "Identified key areas of technical risk or complexity, proposed appropriate Proofs of Concepts (POCs)."
-      href: "#work"
-      icon: "icon-layers"
-      featured: false
-    - title: Back-End
-      content: "Successfully facilitated the launch of Cool X Wallet in SBI BITS in Japan by building a hardware security module (HSM) infrastructure using Java Spring Boot."
-      href: "#work"
-      icon: "color-white icon-chemistry"
-      featured: true
-    - title: Full Stack
-      content: "Provided the highest level of security for crypto assets utilizing JavaScript and React Native. As a result, our wallets have sold over a hundred thousand worldwide."
-      href: "#work"
-      icon: "icon-badge"
-      featured: false
+    - name: "work"
+      pre: '<i class="far fa-user fa-lg"></i>'
+      url: "page/work/"
+      weight: 2
 
 # Work
 work:
   title: Works
   subtitle:
   items:
-
     - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
       image: "img/coolx.jpg"
       hide_text: "Hide"
