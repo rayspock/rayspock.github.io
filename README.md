@@ -1,1 +1,1 @@
-# [About Me](https://rayspock.com)
+# [About Me](https://rayspock.com/page/about/)
