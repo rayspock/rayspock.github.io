@@ -6,7 +6,7 @@ comments: false
 
 | Projects                                | Tools & Technologies                                               |
 | --------------------------------------- | ------------------------------------------------------------------ |
-| [Bequest](#bequest)                     | Golang, CI/CD, Docker,Microservices, Kubernetes, React, Typescript |
+| [Bequest](#bequest)                     | Golang, CI/CD, Docker, Microservices, Kubernetes, React, Typescript |
 | [Cool X Wallet](#cool-x-wallet)         | Java, Netty, AWS Cloud HSM, Docker, Blockchain                     |
 | [CoolWallet S](#coolwallet-s)           | Golang, Blockchain, CI/CD, React Native                            |
 | [Spark API](#spark-api)                 | REST API, Blockchain, Python                                       |
