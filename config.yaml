@@ -15,6 +15,7 @@ params:
   readingTime: true
   wordCount: true
   hotjarID: "1924229"
+  socialShare: true
 
 author:
   name: "rayspock"
