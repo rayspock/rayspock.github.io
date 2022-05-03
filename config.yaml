@@ -117,5 +117,4 @@ work:
       href: "https://resumake.io/"
       tools:
         - text: "React"
-        - text: "Node.js"
         - text: "JavaScript"
