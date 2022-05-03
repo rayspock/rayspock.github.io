@@ -4,14 +4,14 @@ subtitle:
 comments: false
 ---
 
-| Projects                                | Tools & Technologies                                               |
-| --------------------------------------- | ------------------------------------------------------------------ |
-| [Bequest](#bequest)                     | Golang, CI/CD, Docker, Microservices, Kubernetes, React, Typescript |
-| [Cool X Wallet](#cool-x-wallet)         | Java, Netty, AWS Cloud HSM, Docker, Blockchain                     |
-| [CoolWallet S](#coolwallet-s)           | Golang, Blockchain, CI/CD, React Native                            |
-| [Spark API](#spark-api)                 | REST API, Blockchain, Python                                       |
-| [Sygna Bridge Demo](#sygna-bridge-demo) | React, Redux, Saga, Typescript                                     |
-| [Resumake](#resumake)                   | React, Node.js, JavaScript                                         |
+| Projects                                | Tools & Technologies                                      |
+| --------------------------------------- | --------------------------------------------------------- |
+| [Bequest](#bequest)                     | Golang, CI/CD, Docker,Microservices, Kubernetes, React, Typescript |
+| [Cool X Wallet](#cool-x-wallet)         | Java, Netty, AWS Cloud HSM, Docker, Blockchain            |
+| [CoolWallet S](#coolwallet-s)           | Golang, Blockchain, CI/CD, React Native                   |
+| [Spark API](#spark-api)                 | REST API, Blockchain, Python                              |
+| [Sygna Bridge Demo](#sygna-bridge-demo) | React, Redux, Saga, Typescript                            |
+| [Resumake](#resumake)                   | React, JavaScript                                         |
 
 ---
 
