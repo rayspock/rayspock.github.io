@@ -11,11 +11,12 @@ I worked with different industries, including Blockchain, FinTech, Education, He
 ---
 
 | Tools & Technologies | Years Experience |
-| -------------------- | :--------------: |
+|----------------------|:----------------:|
+| Golang               |        4         |
+| AWS                  |        3         |
+| Postgres             |        2         |
 | Javascript           |        4         |
-| Golang               |        3         |
 | React                |        4         |
-| AWS                  |        2         |
 
 ### Experience
 
