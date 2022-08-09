@@ -38,7 +38,7 @@ ___
 
 ## Where to get it
 
-- **Clean Captain** from [Chrome Web Store](https://bit.ly/2YbCl3B)
+- **Clean Captain** from [Chrome Web Store](https://chrome.google.com/webstore/detail/clean-captain/finpbdieoeedpjhaimgobfodhhdnoljb)
 - Loves to get your hands dirty, check out the [Source Code](https://github.com/rayspock/clean-captain) 
 
 ---
