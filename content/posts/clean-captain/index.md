@@ -2,6 +2,7 @@
 title: "How do I clear cookies for a specific site with one click?" 
 date: 2021-06-13
 tags: ["chrome", "extensions", "javascript", "tutorial"]
+share_img: posts/clean-captain/screenshot.png
 ---
 
 I often find that clearing cookies for the website that I’m visiting is a real annoyance because it comes with several steps to use the built-in feature that chrome provides to clear them. Besides, most of the **Chrome Extensions** will clear all the website data and you will lose all your login details for some websites. If you’re lucky you might be fine with signing in.
