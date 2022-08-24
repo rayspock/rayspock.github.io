@@ -1,4 +1,5 @@
 comments:
+  allowedOrigins: ["rayspock.com"]
   allowedFields: ["name", "email", "website", "comment"]
   branch            : "main"
   commitMessage     : "New comment in {options.slug}"
