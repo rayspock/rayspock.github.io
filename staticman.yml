@@ -1,6 +1,6 @@
 comments:
   allowedOrigins: ["rayspock.com"]
-  allowedFields: ["name", "email", "website", "comment"]
+  allowedFields: ["name", "email", "comment"]
   branch            : "main"
   commitMessage     : "New comment in {options.slug}"
   path: "data/comments/{options.slug}"
