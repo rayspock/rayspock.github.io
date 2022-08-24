@@ -16,6 +16,8 @@ params:
   wordCount: true
   hotjarID: "1924229"
   socialShare: true
+  staticman:
+    api: https://staticman80.herokuapp.com/v3/entry/github/rayspock/rayspock.github.io/main/comments
 
 author:
   name: "rayspock"
