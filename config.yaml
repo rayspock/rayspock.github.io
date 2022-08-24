@@ -18,6 +18,9 @@ params:
   socialShare: true
   staticman:
     api: https://staticman80.herokuapp.com/v3/entry/github/rayspock/rayspock.github.io/main/comments
+    recaptcha:
+      sitekey: 6LekwaMhAAAAAB92jlsZ8O40raK50KuwrvPCPNp9
+      secret: irU7sWBmFDAuqbromSiW/YvabpDzpBdHIkwBdCyBUXZLZ3YCZi4tB28Q5a2ke0osLm0qJnB34WtJ9JTJspRc4tD4Zrv/Dd8dub8czKSslQTKaLb93AIPezVYVH3mBcsHfxTzcGs5bbaqtlGIZQDt8kXV69HuMXz2pK1uHcPCtcDk8t21fGqygQ7z8f9tJMos3ckk1t+0ZVE2A+IvrNg/cyzpPG26esKqrkg8CZFrlojkm1Rtceycf5htx4t9YvAQ7WSuTBl22GZ0lKQJIhGZdZS3ZvXD5/I8QuzbRwQ//eQDW0bucHMjq4tAPXeki0QUhJ68NrMp1xktaQpS9upJPg==
 
 author:
   name: "rayspock"
