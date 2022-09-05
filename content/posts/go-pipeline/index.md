@@ -1,5 +1,5 @@
 ---
-title: "Working with concurrency in Go"
+title: "Learn Go Pipelines by building keyword search tool"
 date: 2022-09-04
 tags: ["100daysofcode", "learning-journey", "golang", "concurrency"]
 ---
