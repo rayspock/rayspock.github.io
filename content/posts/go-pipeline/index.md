@@ -1,7 +1,7 @@
 ---
 title: "Learn Go Pipelines by building keyword search tool"
 date: 2022-09-04
-tags: ["100daysofcode", "learning-journey", "golang", "concurrency"]
+tags: ["100daysofcode", "learning-journey", "golang", "concurrency", "pipeline"]
 ---
 
 Today's challenge is about working with concurrency in Go - Goroutines, Channels, and Pipelines. The following exercise is from the book, “Mastering Go: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures” by Mihalis Tsoukalos. The book not only contains a lot of useful examples and best practices but also helps you understand the capability of Go in depth via well-written descriptions. I highly recommend reading through this book to keep your Go journey going smoothly and advance your programming skill with Go.
@@ -159,5 +159,7 @@ func scanFile(fn, phrase string, out chan<- int) {
 }
 ```
 Here we add an anonymous function to manage the counter `ops` we mentioned previously. Basically, what it does is to check whether it can close the channel or not after decreasing `ops` by 1. Furthermore, use the `defer` keyword to make sure that each goroutine will remember to manage the counter when it finishes its jobs, so we can keep `ops` in-sync across goroutines. As a result, only the last goroutine to finish can scan the document and close the channel.
+
+The source code for this tutorial is available here: https://github.com/rayspock/mastering-go-examples/blob/main/pipeline.go
 
 Thank you for reading this article.
