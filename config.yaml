@@ -31,6 +31,11 @@ author:
   twitter: "rayspock675"
   linkedin: "rayspock"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # Navbar
 menu:
   main:
