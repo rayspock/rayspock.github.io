@@ -1,5 +1,5 @@
 ---
-title: "What happens if you overflow or underflow integer in solidity?"
+title: "What Happens if You Overflow or Underflow Integer in Solidity?"
 date: 2022-07-18
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts"]
 ---

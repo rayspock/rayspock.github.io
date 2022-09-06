@@ -1,5 +1,5 @@
 ---
-title: "Some thoughts on using Event Sourcing" 
+title: "Some Thoughts on Using Event Sourcing" 
 date: 2022-05-23
 tags: ["blog", "experience", "developer", "event-sourcing", "journey", "architecture"]
 ---

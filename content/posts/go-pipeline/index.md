@@ -1,5 +1,5 @@
 ---
-title: "Learn Go Pipelines by building keyword search tool"
+title: "Things You Need to Know Before Working With Go Pipelines"
 date: 2022-09-04
 tags: ["100daysofcode", "learning-journey", "golang", "concurrency", "pipeline"]
 share_img: posts/go-pipeline/gioia-m-pipeline-unsplash.jpg

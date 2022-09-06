@@ -1,5 +1,5 @@
 ---
-title: "How I became a developer? (Part1)" 
+title: "How I Became a Developer? (PART1)" 
 date: 2021-10-25
 tags: ["blog", "experience", "developer", "life", "journey"]
 ---

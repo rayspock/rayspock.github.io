@@ -1,5 +1,5 @@
 ---
-title: "How do I clear cookies for a specific site with one click?" 
+title: "How Do I Clear Cookies for a Specific Site With One Click?" 
 date: 2021-06-13
 tags: ["chrome", "extensions", "javascript", "tutorial"]
 share_img: posts/clean-captain/screenshot.png

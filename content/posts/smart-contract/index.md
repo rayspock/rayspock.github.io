@@ -1,5 +1,5 @@
 ---
-title: "Let's talk about smart contracts"
+title: "Let’s Talk About Smart Contracts"
 date: 2022-08-09
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts", "learning-journey"]
 ---
