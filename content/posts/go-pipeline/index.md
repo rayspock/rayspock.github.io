@@ -2,10 +2,10 @@
 title: "Learn Go Pipelines by building keyword search tool"
 date: 2022-09-04
 tags: ["100daysofcode", "learning-journey", "golang", "concurrency", "pipeline"]
-share_img: posts/go-pipeline/gioia-m-pipeline-unsplash.png
+share_img: posts/go-pipeline/gioia-m-pipeline-unsplash.jpg
 ---
 
-![image](gioia-m-pipeline-unsplash.png)
+![image](gioia-m-pipeline-unsplash.jpg)
 <div class="cn"><sub>
 Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@cosmorider?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gioia M.</a> on <a class="au lc" target="_blank" href="https://unsplash.com/s/photos/pipeline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sub></div>
