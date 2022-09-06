@@ -1,8 +1,16 @@
 ---
-title: "What happens if you overflow or underflow integer in solidity?"
+title: "What Happens if You Overflow or Underflow Integer in Solidity?"
 date: 2022-07-18
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts"]
+share_img: posts/solidity-integer/elevate-overflow-unsplash.jpg
 ---
+
+![image](elevate-overflow-unsplash.jpg)
+<div class="cn"><sub>
+Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@elevatebeer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elevate</a> on <a class="au lc" target="_blank" href="https://unsplash.com/s/photos/overflow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sub></div>
+
+<br/>
 
 Solidity is a programming language used to write smart contracts that are run on Ethereum Blockchain Node. To be precise, it runs on Ethereum Virtual Machine(EVM). Today, I’m about to share one of the more interesting behaviours I found in Solidity.
 

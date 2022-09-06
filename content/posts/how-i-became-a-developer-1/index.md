@@ -1,8 +1,11 @@
 ---
-title: "How I became a developer? (Part1)" 
+title: "How I Became a Developer? (PART1)" 
 date: 2021-10-25
 tags: ["blog", "experience", "developer", "life", "journey"]
+share_img: posts/how-i-became-a-developer-1/rayspock-developer-journey-1.jpg
 ---
+
+![image](rayspock-developer-journey-1.jpg)
 
 Technology is one of the most popular aspects in almost every industry. As for software technology, they have been widely used for decades. I still remember the first computer that my dad bought me which requires you to install a bunch of different software and specifically only use the operating system ‘windows 95’ in order to function properly. Yeah, it was very old so you might not have heard of it and the performance is much slower than the smartphone people have nowadays, but it was pretty awesome back then.
 

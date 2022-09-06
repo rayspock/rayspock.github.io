@@ -1,8 +1,16 @@
 ---
-title: "Let's talk about smart contracts"
+title: "Let’s Talk About Smart Contracts"
 date: 2022-08-09
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts", "learning-journey"]
+share_img: posts/smart-contract/rock-n-roll-monkey-smart-contract-unsplash.jpg
 ---
+
+![image](rock-n-roll-monkey-smart-contract-unsplash.jpg)
+<div class="cn"><sub>
+Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@rocknrollmonkey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rock'n Roll Monkey</a> on <a class="au lc" target="_blank" href="https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sub></div>
+
+<br/>
 
 Recently, I finally finished a lecture about developing smart contracts on Blockchain which I bought from Udemy 5 months ago. To be honest, it’s been busy for me to complete a 12 hour long course over the past few months. Nevertheless, it was really great to take a deep dive into learning how to implement some famous use cases like tokenising assets or order tracking with Solidity. It was worth the effort to do it because I now feel more confident than before when I was developing smart contract projects during hackathon events.
 
