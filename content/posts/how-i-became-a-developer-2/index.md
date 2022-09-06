@@ -2,7 +2,12 @@
 title: "How I Became a Developer? (PART2)" 
 date: 2021-12-08
 tags: ["blog", "experience", "developer", "life", "journey"]
+share_img: posts/how-i-became-a-developer-2/rayspock-developer-journey-2.jpg
 ---
+
+![image](rayspock-developer-journey-2.jpg)
+
+
 
 In order to explore the digital world and know how the computer works, I started my undergraduate education in medical informatics. According to [psychology wiki](https://psychology.wikia.org/wiki/Psychology_Wiki):
 

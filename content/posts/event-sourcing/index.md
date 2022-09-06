@@ -2,7 +2,15 @@
 title: "Some Thoughts on Using Event Sourcing" 
 date: 2022-05-23
 tags: ["blog", "experience", "developer", "event-sourcing", "journey", "architecture"]
+share_img: posts/event-sourcing/hasnain-sikora-time-machine-unsplash.jpg
 ---
+
+![image](hasnain-sikora-time-machine-unsplash.jpg)
+<div class="cn"><sub>
+Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@hasnainsikora?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hasnain Sikora</a> on <a class="au lc" target="_blank" href="https://unsplash.com/s/photos/delorean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sub></div>
+
+<br/>
 
 About a year ago, I started to work with event sourcing and built a system around it. It seemed quite new to me, but the more I learned, the easier it became. Basically, I've already worked with event sourcing for my entire career as a software engineer even starting at school, however, I didn't realise it at that time.
 
