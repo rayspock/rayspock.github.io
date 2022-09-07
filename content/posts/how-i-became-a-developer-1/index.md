@@ -3,6 +3,7 @@ title: "How I Became a Developer? (PART1)"
 date: 2021-10-25
 tags: ["blog", "experience", "developer", "life", "journey"]
 share_img: posts/how-i-became-a-developer-1/rayspock-developer-journey-1.jpg
+summary: "Technology is one of the most popular aspects in almost every industry. As for software technology, they have been widely used for decades. I still remember..." 
 ---
 
 ![image](rayspock-developer-journey-1.jpg)
