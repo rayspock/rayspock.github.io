@@ -3,6 +3,7 @@ title: "Some Thoughts on Using Event Sourcing"
 date: 2022-05-23
 tags: ["blog", "experience", "developer", "event-sourcing", "journey", "architecture"]
 share_img: posts/event-sourcing/hasnain-sikora-time-machine-unsplash.jpg
+summary: "About a year ago, I started to work with event sourcing and built a system around it. It seemed quite..."
 ---
 
 ![image](hasnain-sikora-time-machine-unsplash.jpg)

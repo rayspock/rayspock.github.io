@@ -3,6 +3,7 @@ title: "Let’s Talk About Smart Contracts"
 date: 2022-08-09
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts", "learning-journey"]
 share_img: posts/smart-contract/rock-n-roll-monkey-smart-contract-unsplash.jpg
+summary: "Recently, I finally finished a lecture about developing smart contracts on Blockchain which I bought..."
 ---
 
 ![image](rock-n-roll-monkey-smart-contract-unsplash.jpg)

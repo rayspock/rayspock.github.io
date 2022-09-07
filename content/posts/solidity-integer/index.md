@@ -3,6 +3,7 @@ title: "What Happens if You Overflow or Underflow Integer in Solidity?"
 date: 2022-07-18
 tags: ["100daysofcode", "solidity", "ethereum", "smart-contracts"]
 share_img: posts/solidity-integer/elevate-overflow-unsplash.jpg
+summary: "What if we try to store the result of some arithmetic that falls outside of the declared range..." 
 ---
 
 ![image](elevate-overflow-unsplash.jpg)
