@@ -3,6 +3,7 @@ title: "How Do I Clear Cookies for a Specific Site With One Click?"
 date: 2021-06-13
 tags: ["chrome", "extensions", "javascript", "tutorial"]
 share_img: posts/clean-captain/clean-captain-screenshot.png
+summary: "Clear your cache and cookies from the website you are visiting in just one click..."
 ---
 
 I often find that clearing cookies for the website that I’m visiting is a real annoyance because it comes with several steps to use the built-in feature that chrome provides to clear them. Besides, most of the **Chrome Extensions** will clear all the website data and you will lose all your login details for some websites. If you’re lucky you might be fine with signing in.
@@ -33,7 +34,7 @@ ___
 
 Clean Captain is a lightweight extension that enables you to remove the cookies from most websites that need cookies enabled to work properly. Protect your privacy and delete all activity from specifying websites. You can keep sessions or cookies from those websites you trust.
 
-{{< figure src="screenshot.png" alt="clean captain" >}}
+{{< figure src="clean-captain-screenshot.png" alt="clean captain" >}}
 
 ___
 
