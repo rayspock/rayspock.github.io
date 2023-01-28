@@ -3,4 +3,4 @@
 A passionate self-taught developer from Taiwan🇹🇼.
 
 - 🌱 Loving to solve the challenging stuff. Moving toward the excelling Hacker.
-- 👨🏽‍💻 Check out my [blog](https://blog.rayspock.com)
+- 👨🏽‍💻 Check out [my blog](https://blog.rayspock.com)

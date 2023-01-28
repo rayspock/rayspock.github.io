@@ -9,7 +9,7 @@ enableGitInfo: true
 
 params:
   commit: "https://github.com/rayspock/rayspock.github.io/tree/"
-  logo: "img/portfolio.png"
+  logo: "img/portfolio.jpg"
   mainSections: []
   readingTime: true
   wordCount: true
