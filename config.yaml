@@ -8,10 +8,9 @@ enableEmoji: true
 enableGitInfo: true
 
 params:
-  subtitle: "Developer. Loving to solve the challenging stuff. Moving toward the excelling Hacker."
   commit: "https://github.com/rayspock/rayspock.github.io/tree/"
   logo: "img/portfolio.png"
-  mainSections: ["posts"]
+  mainSections: []
   readingTime: true
   wordCount: true
   hotjarID: "1924229"
@@ -42,12 +41,17 @@ menu:
     - name: "About"
       pre: '<i class="far fa-user fa-lg"></i>'
       url: "page/about/"
-      weight: 2
+      weight: 1
 
     - name: "work"
       pre: '<i class="far fa-user fa-lg"></i>'
       url: "page/work/"
       weight: 2
+
+    - name: "Blog"
+      pre: '<i class="far fa-user fa-lg"></i>'
+      url: "https://blog.rayspock.com"
+      weight: 3
 
 # Work
 work:

@@ -1,2 +1,6 @@
-Over eight years of experience in software development. Specializing in Object-Oriented Design and Analysis with extensive experience in the full lifecycle of the software design process, including requirements definition, prototyping, proof of concept, design, interface implementation, testing, and maintenance.
+### Hi there, I'm [Ray](https://rayspock.com/page/about/)🖖
 
+A passionate self-taught developer from Taiwan🇹🇼.
+
+- 🌱 Loving to solve the challenging stuff. Moving toward the excelling Hacker.
+- 👨🏽‍💻 Check out my [blog](https://blog.rayspock.com)
