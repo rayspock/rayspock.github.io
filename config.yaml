@@ -2,15 +2,15 @@ baseURL: "https://rayspock.com/"
 defaultContentLanguage: "en"
 languageCode: "en-gb"
 title: "Ray Yang"
-theme: "beautifulhugo"
+theme: "hello-friend-ng"
 googleAnalytics: "G-JHBWZFD03W"
 enableEmoji: true
 enableGitInfo: true
 
 params:
   commit: "https://github.com/rayspock/rayspock.github.io/tree/"
-  logo: "img/portfolio.jpg"
-  mainSections: []
+  #  logo: "img/portfolio.jpg"
+  mainSections: [ ]
   readingTime: true
   wordCount: true
   hotjarID: "1924229"
@@ -21,11 +21,32 @@ params:
     recaptcha:
       siteKey: 6LekwaMhAAAAAB92jlsZ8O40raK50KuwrvPCPNp9
       secret: F0c2yxEKcX4sxD6XoiUozcBXQ8dybqHB620eDYs3ESY9UXPJzrItGUfKUVsUiWa0WV4d4WSMTPzL/shqkSFtr9yJtyVZtGBUk1il9tS0npShWroNdhg1yZZS08tZ7SdgRNYIDMbUc4lGp/EST4y0iCMw5iPTQGdYerVN3ITKHar0YRgxEk4KtFJGWuf3dsRKd0MWw31adH1i1Zq5bC540ZdfPgqMgEmQOvATtxY/Dp8LscC1WJ4+x5IEUG6ZoLqlNoxEsPTT3trNnIRhb+wasq4WqUVouOto6X4bveVTh29Lwyy8HGeXARCQEJtK02QV1BDwXwSPkSe1FxfLhuJ9Uw==
+  # hello-friend-ng
+  enableThemeToggle: true
+  social:
+    - name: twitter
+      url: 'https://twitter.com/rayspock675'
+    - name: github
+      url: 'https://github.com/rayspock'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/rayspock/'
+  logo:
+    logoText: ls rayspock
+    logoHomeLink: /
+  homeSubtitle: "Software Engineer"
+  footer:
+    trademark: true
+    copyright: false
+    author: true
+    topText: [ ]
+    bottomText: [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "<a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Theme</a> made by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+    ]
 
 author:
   name: "rayspock"
   website: "https://rayspock.com/"
-  email: "rayspock@protonmail.com"
   github: "rayspock"
   twitter: "rayspock675"
   linkedin: "rayspock"
@@ -38,7 +59,7 @@ markup:
 # Navbar
 menu:
   main:
-    - name: "About"
+    - name: "about"
       pre: '<i class="far fa-user fa-lg"></i>'
       url: "page/about/"
       weight: 1
@@ -48,7 +69,7 @@ menu:
       url: "page/work/"
       weight: 2
 
-    - name: "Blog"
+    - name: "blog"
       pre: '<i class="far fa-user fa-lg"></i>'
       url: "https://blog.rayspock.com"
       weight: 3
