@@ -4,7 +4,7 @@ subtitle:
 comments: false
 ---
 
-I worked with different industries, including Blockchain, FinTech, Education, Healthcare and Retail, to build extraordinary things for extraordinary people. My strengths are mostly in the backend (Golang), but I can do frontend like HTML/CSS, and JS (React, Redux, etc.) whenever needed, which enables me to create everything from small business websites to custom web applications.
+I've had the opportunity to work with a diverse range of industries, including Blockchain, FinTech, Education, Healthcare, and Retail, building everything from small business websites to custom web applications. I love tackling challenging problems and am constantly striving to become an even better hacker.
 
 ### Skills
 
