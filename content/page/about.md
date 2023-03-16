@@ -4,6 +4,8 @@ subtitle:
 comments: false
 ---
 
+Hey there! I'm a passionate self-taught developer originally from Taiwan, now living in London and working as a software engineer. My focus is mostly on backend development using Golang, and I am fascinated by devops, where it can automate a lot of things and make life a lot easier.
+
 I've had the opportunity to work with a diverse range of industries, including Blockchain, FinTech, Education, Healthcare, and Retail, building everything from small business websites to custom web applications. I love tackling challenging problems and am constantly striving to become an even better hacker.
 
 ### Skills
