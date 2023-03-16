@@ -5,7 +5,7 @@ title: "Ray Yang"
 theme: "hello-friend-ng"
 googleAnalytics: "G-JHBWZFD03W"
 enableEmoji: true
-enableGitInfo: true
+enableGitInfo: false
 
 params:
   commit: "https://github.com/rayspock/rayspock.github.io/tree/"
