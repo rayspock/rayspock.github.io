@@ -12,3 +12,6 @@
 </script>
 <!-- End Hotjar Tracking -->
 {{- end -}}
+{{- if .Site.Params.defaultTheme -}}
+<script>localStorage.getItem('theme') || localStorage.setItem('theme', '{{ .Site.Params.defaultTheme }}');</script>
+{{- end -}}
