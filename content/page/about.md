@@ -15,10 +15,12 @@ I've had the opportunity to work in a variety of industries, including blockchai
 | Tools & Technologies | Years Experience |
 |----------------------|:----------------:|
 | Golang               |        3         |
-| AWS                  |        3         |
+| Docker               |        4         |
+| Kubernetes           |        3         |
 | Postgres             |        3         |
 | Javascript           |        4         |
 | React                |        3         |
+| AWS                  |        3         |
 
 ### Experience
 
