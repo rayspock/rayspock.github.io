@@ -6,12 +6,12 @@ comments: false
 
 | Projects                                | Tools & Technologies                           |
 | --------------------------------------- |------------------------------------------------|
-| [Bequest](#bequest)                     | Golang, SRE, Event Sourcing, Kubernetes, React |
-| [Cool X Wallet](#cool-x-wallet)         | Java, Netty, AWS Cloud HSM, Docker, Blockchain |
-| [CoolWallet S](#coolwallet-s)           | Golang, Blockchain, CI/CD, React Native        |
-| [Spark API](#spark-api)                 | REST API, Blockchain, Python                   |
+| [Bequest](#bequest)                     | Golang, AWS, Event Sourcing, Kubernetes, React |
+| [Cool X Wallet](#cool-x-wallet)         | Javascript, AWS Cloud HSM, Docker, Blockchain  |
+| [CoolWallet S](#coolwallet-s)           | Golang, Blockchain, CI/CD, Javascript          |
+| [Spark API](#spark-api)                 | REST API, Blockchain                           |
 | [Sygna Bridge Demo](#sygna-bridge-demo) | React, Redux, Saga, Typescript                 |
-| [Resumake](#resumake)                   | React, JavaScript                              |
+| [Resumake](#resumake)                   | React, Javascript                              |
 
 ---
 
@@ -53,7 +53,7 @@ _[View Project](https://www.coolwallet.io/)_
 
 > Forked from [kyuupichan/electrumx](https://github.com/kyuupichan/electrumx)
 
-Built REST APIs on Python-based ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.
+Built REST APIs on ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.
 
 _[View Project](https://github.com/rayspock/electrumx)_
 
