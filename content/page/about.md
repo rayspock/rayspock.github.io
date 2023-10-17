@@ -15,12 +15,12 @@ I've had the opportunity to work in a variety of industries, including blockchai
 | Tools & Technologies | Years Experience |
 |----------------------|:----------------:|
 | Golang               |        3         |
-| Docker               |        4         |
+| Docker               |        3         |
 | Kubernetes           |        3         |
 | Postgres             |        3         |
-| Javascript           |        4         |
-| React                |        3         |
-| AWS                  |        3         |
+| JavaScript           |        5         |
+| React                |        5         |
+| AWS                  |        5         |
 
 ### Experience
 
@@ -36,4 +36,4 @@ _Successfully facilitated the launch of Cool X Wallet in SBI BITS in Japan by bu
 
 #### _Full Stack_
 
-_Provided the highest level of security for crypto assets utilizing Javascript and Golang. As a result, our wallets have sold over a hundred thousand worldwide._
+_Provided the highest level of security for crypto assets utilizing JavaScript and Golang. As a result, our wallets have sold over a hundred thousand worldwide._
