@@ -3,5 +3,5 @@
 I'm a passionate software engineer originally from Taiwan🇹🇼.
 
 - 📍 London, UK
-- 🤖 Golang enthusiast
+- 🤖 Go enthusiast
 - 👨🏽‍💻 Check out [my blog](https://blog.rayspock.com)

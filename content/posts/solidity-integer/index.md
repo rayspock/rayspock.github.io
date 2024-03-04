@@ -23,7 +23,7 @@ Signed integral types (int) can represent both positive numbers and negative num
 
 The default size of integers is 32 bytes, which can be declared as `uint`. Also, we can explicitly specify the size of integers by adding the trailing number of bits such as `uint8` which can store in 8 bits allowing 256 combinations (0 through 255).
 
-What if we try to store the result of some arithmetic that falls outside of the declared range? In other programming languages, like Golang, the software may panic and disable the action ( causing an exception in the program), but it's not the case in Solidity(before version 0.8). It will still be runnable without failing the action, but the result won’t be what we expected, it will roll over to the next digit it can represent or store.
+What if we try to store the result of some arithmetic that falls outside of the declared range? In other programming languages, like Go, the software may panic and disable the action ( causing an exception in the program), but it's not the case in Solidity(before version 0.8). It will still be runnable without failing the action, but the result won’t be what we expected, it will roll over to the next digit it can represent or store.
 
 Feel free to try the code snippet below and see if you can overflow or underflow integers.
 ```solidity

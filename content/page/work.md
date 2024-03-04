@@ -4,15 +4,15 @@ subtitle:
 comments: false
 ---
 
-| Projects                                    | Tools & Technologies                                                        |
-|---------------------------------------------|-----------------------------------------------------------------------------|
-| [Bequest](#bequest)                         | Golang, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
-| [ChatGPT Discord Bot](#chatgpt-discord-bot) | Golang, ChatGPT, Instant Messaging, Bot                                     |
-| [Cool X Wallet](#cool-x-wallet)             | JavaScript, React Native, AWS Cloud HSM, Docker, Blockchain                 |
-| [CoolWallet S](#coolwallet-s)               | Golang, Blockchain, CI/CD, JavaScript, React Native                         |
-| [Spark API](#spark-api)                     | REST API, Blockchain                                                        |
-| [Sygna Bridge](#sygna-bridge)               | React, Redux, Saga, JavaScript, AWS Fargate, NodeJS                         |
-| [Resumake](#resumake)                       | React, JavaScript, Node.js                                                  |
+| Projects                                    | Tools & Technologies                                                    |
+|---------------------------------------------|-------------------------------------------------------------------------|
+| [Bequest](#bequest)                         | Go, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
+| [ChatGPT Discord Bot](#chatgpt-discord-bot) | Go, ChatGPT, Instant Messaging, Bot                                     |
+| [Cool X Wallet](#cool-x-wallet)             | JavaScript, React Native, AWS Cloud HSM, Docker, Blockchain             |
+| [CoolWallet S](#coolwallet-s)               | Go, Blockchain, CI/CD, JavaScript, React Native                         |
+| [Spark API](#spark-api)                     | REST API, Blockchain                                                    |
+| [Sygna Bridge](#sygna-bridge)               | React, Redux, Saga, JavaScript, AWS Fargate, NodeJS                     |
+| [Resumake](#resumake)                       | React, JavaScript, Node.js                                              |
 
 ---
 
@@ -30,7 +30,9 @@ _[View Project](https://www.linkedin.com/company/bequestlife/mycompany/)_
 
 ### ChatGPT Discord Bot
 
-The GPT Discord Bot project, which is developing a bot using OpenAI's ChatGPT model to enhance and automate interactions on the popular Discord messaging platform, combining the power of AI technology with the social aspect of a chat platform to create unique and engaging experiences for users.
+The GPT Discord Bot project, which is developing a bot using OpenAI's ChatGPT model to enhance and automate interactions
+on the popular Discord messaging platform, combining the power of AI technology with the social aspect of a chat
+platform to create unique and engaging experiences for users.
 
 ![](https://user-images.githubusercontent.com/19812545/239699730-28bc4608-871f-4477-bbb4-fcfbbdbe9a27.gif)
 
