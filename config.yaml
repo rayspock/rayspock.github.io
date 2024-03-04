@@ -109,7 +109,7 @@ work:
       href: "https://www.coolwallet.io/"
       tools:
         - text: "React Native"
-        - text: "Golang"
+        - text: "Go"
         - text: "Blockchain"
         - text: "CI/CD"
 

@@ -1,7 +1,7 @@
 ---
 title: "Things You Need to Know Before Working With Go Pipelines"
 date: 2022-09-04
-tags: ["100daysofcode", "learning-journey", "golang", "concurrency", "pipeline"]
+tags: ["100daysofcode", "learning-journey", "Go", "concurrency", "pipeline"]
 share_img: posts/go-pipeline/gioia-m-pipeline-unsplash.jpg
 summary: "Today's challenge is about working with concurrency in Go - Goroutines, Channels, and Pipelines..."
 ---
@@ -13,7 +13,7 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@cosmorider
 
 <br/>
 
-Today's challenge is about working with concurrency in Go - Goroutines, Channels, and Pipelines. The following exercise is from the book, “Mastering Go: Create Golang production applications using network libraries, concurrency, machine learning, and advanced data structures” by Mihalis Tsoukalos. The book not only contains a lot of useful examples and best practices but also helps you understand the capability of Go in depth via well-written descriptions. I highly recommend reading through this book to keep your Go journey going smoothly and advance your programming skill with Go.
+Today's challenge is about working with concurrency in Go - Goroutines, Channels, and Pipelines. The following exercise is from the book, “Mastering Go: Create Go production applications using network libraries, concurrency, machine learning, and advanced data structures” by Mihalis Tsoukalos. The book not only contains a lot of useful examples and best practices but also helps you understand the capability of Go in depth via well-written descriptions. I highly recommend reading through this book to keep your Go journey going smoothly and advance your programming skill with Go.
 
 Here is the task we would like our program to achieve
 > Create a pipeline that reads text files, finds the number of occurrences of a given phrase in each text file, and calculate the total number of occurrences of the phrase in all files.
@@ -51,7 +51,7 @@ func main() {
 }
 ```
 Before we go to the next stage, we need to figure out how goroutines communicate with each other.
-Golang provides a communication mechanism called “Channel” where goroutines can exchange data with others. Therefore, we can leverage Channel to collect outcomes from other goroutines like the code segment below. It takes whatever inputs from the channel(chan keyword) `in`  and sums them up.
+Go provides a communication mechanism called “Channel” where goroutines can exchange data with others. Therefore, we can leverage Channel to collect outcomes from other goroutines like the code segment below. It takes whatever inputs from the channel(chan keyword) `in`  and sums them up.
 ```go
 func sum(in <-chan int) int {
 	total := 0
@@ -109,7 +109,7 @@ func main() {
 	fmt.Println("total occurrences:", total)
 }
 ```
-How do we resolve it and make sure that we close the channel properly when every goroutine finishes their jobs? It is worthwhile to mention that we cannot close a closed channel in golang, therefore, only the last goroutine which finishes its jobs can close the channel.
+How do we resolve it and make sure that we close the channel properly when every goroutine finishes their jobs? It is worthwhile to mention that we cannot close a closed channel in Go, therefore, only the last goroutine which finishes its jobs can close the channel.
 Let’s imagine that channels are serving stations where we hold food and goroutines are the staff who serve the food. Let's say we would like to close the cafeteria, those serving stations need to be properly closed. Therefore, we have to assure that only the last person who finishes the serving can close the serving station, otherwise - hypothetically - others might not be able to serve food in the future.
 
 Let's get back to the `main` function here below to see how we can refine it. We would need a counter which can be accessed by multiple goroutines, so that we could keep track of how many goroutines are still working and will need to use the channel. However, how do we manage states between goroutines without causing race conditions? Well, this is where `sync/atomic` comes in handy. We can setup a new variable `ops` and leverage the package `atomic` to control our state across goroutines and prevent race conditions.
