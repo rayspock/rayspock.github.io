@@ -31,21 +31,20 @@ params:
     logoHomeLink: /
   homeSubtitle: "🐳Software Engineer | 🚀BUIDL | 📍London"
   footer:
-    trademark: true
+    trademark: 2025
     copyright: false
     author: true
     topText: [ ]
     bottomText: [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "<a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Theme</a> made by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+      "<a href=\"https://github.com/rayspock/hugo-theme-hello-friend-ng\">Theme</a> made by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
     ]
-
-author:
-  name: "rayspock"
-  website: "https://rayspock.com/"
-  github: "rayspock"
-  twitter: "rayspock675"
-  linkedin: "rayspock"
+  author:
+    name: "rayspock"
+    website: "https://rayspock.com/"
+    github: "rayspock"
+    twitter: "rayspock675"
+    linkedin: "rayspock"
 
 markup:
   goldmark:
