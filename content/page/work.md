@@ -6,6 +6,7 @@ comments: false
 
 | Projects                                    | Tools & Technologies                                                    |
 |---------------------------------------------|-------------------------------------------------------------------------|
+| [Electric Vehicle](#electric-vehicle)       | Go, JavaScript, React, Node.js, AWS                                     |
 | [Bequest](#bequest)                         | Go, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
 | [ChatGPT Discord Bot](#chatgpt-discord-bot) | Go, ChatGPT, Instant Messaging, Bot                                     |
 | [Cool X Wallet](#cool-x-wallet)             | JavaScript, React Native, AWS Cloud HSM, Docker, Blockchain             |
@@ -15,6 +16,17 @@ comments: false
 | [Resumake](#resumake)                       | React, JavaScript, Node.js                                              |
 
 ---
+
+### Electric Vehicle
+
+Migrated eligible customers to a new tariff offering reduced electric vehicle charging rates during off-peak hours.
+
+- Led the architecture and implementation of micro frontends in React, successfully integrating them into an existing monolithic application. This modernised the platform, improved scalability and maintainability, and enhanced the customer experience. 
+- Designed and built a Go-based simulation tool to mock and validate GraphQL APIs, extending the legacy API with authentic data. This reduced backend dependencies, accelerated the development lifecycle by 10%, and improved application reliability and resilience.
+
+_[View Project](https://www.edfenergy.com/electric-cars/ev-tariffs)_
+
+![](/img/ev.gif)
 
 ### Bequest
 
