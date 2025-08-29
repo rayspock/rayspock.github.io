@@ -16,11 +16,6 @@ params:
   hotjarID: "1924229"
   socialShare: true
   comments: false
-  staticman:
-    api: https://staticman80.herokuapp.com/v3/entry/github/rayspock/rayspock.github.io/main/comments
-    recaptcha:
-      siteKey: 6LekwaMhAAAAAB92jlsZ8O40raK50KuwrvPCPNp9
-      secret: F0c2yxEKcX4sxD6XoiUozcBXQ8dybqHB620eDYs3ESY9UXPJzrItGUfKUVsUiWa0WV4d4WSMTPzL/shqkSFtr9yJtyVZtGBUk1il9tS0npShWroNdhg1yZZS08tZ7SdgRNYIDMbUc4lGp/EST4y0iCMw5iPTQGdYerVN3ITKHar0YRgxEk4KtFJGWuf3dsRKd0MWw31adH1i1Zq5bC540ZdfPgqMgEmQOvATtxY/Dp8LscC1WJ4+x5IEUG6ZoLqlNoxEsPTT3trNnIRhb+wasq4WqUVouOto6X4bveVTh29Lwyy8HGeXARCQEJtK02QV1BDwXwSPkSe1FxfLhuJ9Uw==
   # hello-friend-ng
   enableThemeToggle: true
   defaultTheme: "dark"
@@ -36,21 +31,20 @@ params:
     logoHomeLink: /
   homeSubtitle: "🐳Software Engineer | 🚀BUIDL | 📍London"
   footer:
-    trademark: true
+    trademark: 2025
     copyright: false
     author: true
     topText: [ ]
     bottomText: [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "<a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Theme</a> made by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
+      "<a href=\"https://github.com/rayspock/hugo-theme-hello-friend-ng\">Theme</a> made by <a href=\"https://github.com/rhazdon\">rhazdon</a>"
     ]
-
-author:
-  name: "rayspock"
-  website: "https://rayspock.com/"
-  github: "rayspock"
-  twitter: "rayspock675"
-  linkedin: "rayspock"
+  author:
+    name: "rayspock"
+    website: "https://rayspock.com/"
+    github: "rayspock"
+    twitter: "rayspock675"
+    linkedin: "rayspock"
 
 markup:
   goldmark:
@@ -74,85 +68,3 @@ menu:
       pre: '<i class="far fa-user fa-lg"></i>'
       url: "https://blog.rayspock.com"
       weight: 3
-
-# Work
-work:
-  title: Works
-  subtitle:
-  items:
-    - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
-      image: "img/coolx.jpg"
-      hide_text: "Hide"
-      title: "Cool X Wallet"
-      subtitle: ""
-      description: "<p>Credit Card-Sized Bluetooth hardware wallet to secure customer's crypto assets. </p>
-      <p> I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in <a href='https://www.sbibits.com/' target='_blank' rel='noopener'>SBI BITS</a>.</p>
-      "
-      cta: "View Project"
-      href: "https://www.sbicxw.com/"
-      tools:
-        - text: "Java"
-        - text: "Netty"
-        - text: "AWS Cloud HSM"
-        - text: "Docker"
-        - text: "Blockchain"
-
-    - grid_class: "col-xs-12 col-sm-6 col-md-4"
-      image: "img/coolwallet.jpg"
-      hide_text: "Hide"
-      title: "CoolWallet S"
-      subtitle: ""
-      description: "<p>Bluetooth hardware wallet for Bitcoin, Ethereum, Litecoin, XRP, Bitcoin Cash, and ERC20 Tokens.</p>
-      <p>A hardware wallet is a special type of bitcoin wallet which stores the user's private keys in a secure hardware device.</p>
-      "
-      cta: "View Project"
-      href: "https://www.coolwallet.io/"
-      tools:
-        - text: "React Native"
-        - text: "Go"
-        - text: "Blockchain"
-        - text: "CI/CD"
-
-    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/blockchain.jpg"
-      hide_text: "Hide"
-      title: "Spark API"
-      subtitle: "Forked from kyuupichan/electrumx"
-      description: "<p>Built REST APIs on Python-based ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.</p>
-      "
-      cta: "View Project"
-      href: "https://github.com/rayspock/electrumx"
-      tools:
-        - text: "Python"
-        - text: "REST API"
-        - text: "Blockchain"
-
-    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/bridge.jpg"
-      hide_text: "Hide"
-      title: "Sygna Bridge Demo"
-      subtitle: ""
-      description: "<p><a href='https://www.sygna.io/bridge/' target='_blank' rel='noopener'>Sygna Bridges</a> the Gap Between the Virtual Asset Industry and Mainstream Finance</p>
-      <p>Visually exploring Sygna Bridge which enabling VASPs to collect and exchange compliance-required transaction information.</p>
-      "
-      cta: "View Project"
-      href: "https://coolbitx-technology.github.io/sygna-bridge-demo/"
-      tools:
-        - text: "React"
-        - text: "Redux"
-        - text: "Saga"
-        - text: "Typescript"
-
-    - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-      image: "img/resumake.jpg"
-      hide_text: "Hide"
-      title: "resumake"
-      subtitle: ""
-      description: "<p>Resumake is a website for automatically generating elegant LaTeX resumes without the need to write any TeX code yourself.</p>
-      <p>As an open-source contributor, I provided a solution by developing a new template to choose from, which enable users to highlight their resumes.</p>
-      "
-      cta: "View Project"
-      href: "https://resumake.io/"
-      tools:
-        - text: "React"
-        - text: "JavaScript"
