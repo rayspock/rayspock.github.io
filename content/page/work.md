@@ -6,7 +6,7 @@ comments: false
 
 | Projects                                    | Tools & Technologies                                                    |
 |---------------------------------------------|-------------------------------------------------------------------------|
-| [Electric Vehicle](#electric-vehicle)       | Go, JavaScript, React, Node.js, AWS                                     |
+| [OptiCharge](#opticharge)                   | Go, JavaScript, React, Node.js, AWS                                     |
 | [Bequest](#bequest)                         | Go, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
 | [ChatGPT Discord Bot](#chatgpt-discord-bot) | Go, ChatGPT, Instant Messaging, Bot                                     |
 | [Cool X Wallet](#cool-x-wallet)             | JavaScript, React Native, AWS Cloud HSM, Docker, Blockchain             |
@@ -17,7 +17,7 @@ comments: false
 
 ---
 
-### Electric Vehicle
+### OptiCharge 
 
 Migrated eligible customers to a new tariff offering reduced electric vehicle charging rates during off-peak hours.
 
