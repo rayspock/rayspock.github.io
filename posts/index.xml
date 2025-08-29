@@ -6,8 +6,7 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@cosmorider
 <p>Today&rsquo;s challenge is about working with concurrency in Go - Goroutines, Channels, and Pipelines. The following exercise is from the book, “Mastering Go: Create Go production applications using network libraries, concurrency, machine learning, and advanced data structures” by Mihalis Tsoukalos. The book not only contains a lot of useful examples and best practices but also helps you understand the capability of Go in depth via well-written descriptions. I highly recommend reading through this book to keep your Go journey going smoothly and advance your programming skill with Go.</p>
 <p>Here is the task we would like our program to achieve</p>
 <blockquote>
-<p>Create a pipeline that reads text files, finds the number of occurrences of a given phrase in each text file, and calculate the total number of occurrences of the phrase in all files.</p>
-</blockquote>
+<p>Create a pipeline that reads text files, finds the number of occurrences of a given phrase in each text file, and calculate the total number of occurrences of the phrase in all files.</p></blockquote>
 <p>The first part of the code is the most straightforward one where we pass file paths and a phrase to the program as the command-line argument, so the program knows which files to look for for the given phrase. A <code>for</code> loop is used to iterate each file, and we are going to create goroutines to read and count the number of occurrences in each one. Finally, we will gather results from all goroutines and sum up the total.</p>
 <p>For example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
@@ -31,10 +30,10 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@cosmorider
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">phrase</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>[<span style="color:#ae81ff">1</span>]
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">2</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fn</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>[<span style="color:#a6e22e">i</span>]
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// TO-DO: Reads the file and finds the number of occurrences of a given phrase
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// TO-DO: Calculate total numbers of occurrences
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;total occurrences:&#34;</span>, <span style="color:#a6e22e">total</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// TO-DO: Reads the file and finds the number of occurrences of a given phrase</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// TO-DO: Calculate total numbers of occurrences</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;total occurrences:&#34;</span>, <span style="color:#a6e22e">total</span>)
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Before we go to the next stage, we need to figure out how goroutines communicate with each other.
 Go provides a communication mechanism called “Channel” where goroutines can exchange data with others. Therefore, we can leverage Channel to collect outcomes from other goroutines like the code segment below. It takes whatever inputs from the channel(chan keyword) <code>in</code>  and sums them up.</p>
@@ -62,8 +61,8 @@ Go provides a communication mechanism called “Channel” where goroutines can 
 </span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;file:&#34;</span>, <span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">Name</span>(), <span style="color:#e6db74">&#34;, occurrences:&#34;</span>, <span style="color:#a6e22e">count</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// send to the channel
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">out</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">count</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// send to the channel</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">out</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">count</span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">scanner</span>.<span style="color:#a6e22e">Err</span>(); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span>
@@ -81,11 +80,11 @@ Basically, we finish most of the logic and it should work as expected. However, 
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">jobNumbers</span> <span style="color:#f92672">:=</span> len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>) <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">2</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fn</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>[<span style="color:#a6e22e">i</span>]
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// Reads the file and finds the number of occurrences of a given phrase
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#66d9ef">go</span> <span style="color:#a6e22e">scanFile</span>(<span style="color:#a6e22e">fn</span>, <span style="color:#a6e22e">phrase</span>, <span style="color:#a6e22e">A</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// Reads the file and finds the number of occurrences of a given phrase</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">go</span> <span style="color:#a6e22e">scanFile</span>(<span style="color:#a6e22e">fn</span>, <span style="color:#a6e22e">phrase</span>, <span style="color:#a6e22e">A</span>)
 </span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Calculate total numbers of occurrences
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">total</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sum</span>(<span style="color:#a6e22e">A</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Calculate total numbers of occurrences</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">total</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sum</span>(<span style="color:#a6e22e">A</span>)
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;total occurrences:&#34;</span>, <span style="color:#a6e22e">total</span>)
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>How do we resolve it and make sure that we close the channel properly when every goroutine finishes their jobs? It is worthwhile to mention that we cannot close a closed channel in Go, therefore, only the last goroutine which finishes its jobs can close the channel.
@@ -100,14 +99,14 @@ Let’s imagine that channels are serving stations where we hold food and gorout
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">phrase</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>[<span style="color:#ae81ff">1</span>]
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">A</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#66d9ef">int</span>)
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">jobNumbers</span> <span style="color:#f92672">:=</span> len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>) <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">atomic</span>.<span style="color:#a6e22e">AddInt32</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">ops</span>, int32(<span style="color:#a6e22e">jobNumbers</span>)) <span style="color:#75715e">// to keep track of total numbers of goroutines
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">2</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">atomic</span>.<span style="color:#a6e22e">AddInt32</span>(<span style="color:#f92672">&amp;</span><span style="color:#a6e22e">ops</span>, int32(<span style="color:#a6e22e">jobNumbers</span>)) <span style="color:#75715e">// to keep track of total numbers of goroutines</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">2</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fn</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Args</span>[<span style="color:#a6e22e">i</span>]
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// Reads the file and finds the number of occurrences of a given phrase
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#66d9ef">go</span> <span style="color:#a6e22e">scanFile</span>(<span style="color:#a6e22e">fn</span>, <span style="color:#a6e22e">phrase</span>, <span style="color:#a6e22e">A</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// Reads the file and finds the number of occurrences of a given phrase</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">go</span> <span style="color:#a6e22e">scanFile</span>(<span style="color:#a6e22e">fn</span>, <span style="color:#a6e22e">phrase</span>, <span style="color:#a6e22e">A</span>)
 </span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Calculate total numbers of occurrences
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">total</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sum</span>(<span style="color:#a6e22e">A</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Calculate total numbers of occurrences</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">total</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sum</span>(<span style="color:#a6e22e">A</span>)
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;total occurrences:&#34;</span>, <span style="color:#a6e22e">total</span>)
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>The last part of the <code>scanFile</code> function is as follows:</p>
@@ -134,8 +133,8 @@ Let’s imagine that channels are serving stations where we hold food and gorout
 </span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;file:&#34;</span>, <span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">Name</span>(), <span style="color:#e6db74">&#34;, occurrences:&#34;</span>, <span style="color:#a6e22e">count</span>)
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// send to the channel
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">out</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">count</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// send to the channel</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">out</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">count</span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">scanner</span>.<span style="color:#a6e22e">Err</span>(); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">err</span>)
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span>
@@ -152,8 +151,7 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@rocknrollm
 <p>Recently, I finally finished a lecture about developing smart contracts on Blockchain which I bought from Udemy 5 months ago. To be honest, it’s been busy for me to complete a 12 hour long course over the past few months. Nevertheless, it was really great to take a deep dive into learning how to implement some famous use cases like tokenising assets or order tracking with Solidity. It was worth the effort to do it because I now feel more confident than before when I was developing smart contract projects during hackathon events.</p>
 <p>According to Wikipedia:</p>
 <blockquote>
-<p>“Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum. It was developed by Christian Reitwiessner, Alex Beregszaszi, and several former Ethereum core contributors. Programs in Solidity run on Ethereum Virtual Machine.”</p>
-</blockquote>
+<p>“Solidity is an object-oriented programming language for implementing smart contracts on various blockchain platforms, most notably, Ethereum. It was developed by Christian Reitwiessner, Alex Beregszaszi, and several former Ethereum core contributors. Programs in Solidity run on Ethereum Virtual Machine.”</p></blockquote>
 <p>I was drawn to this technology where we can write a piece of immutable code that can be executed automatically without any middleman involved. To put it simply, we don’t have to worry about whether we can trust a centralised authority to claim that the services or software they provide are legit or verified. This kind of trustless characteristic is the core notion of blockchain where smart contracts are stored and run.</p>
 <p>Now, we know smart contracts are programs where you can automate them to execute agreements when predefined criteria are met, therefore, we can get one step further to automate workflows that need to be done in our daily life. These could be things such as retrieving stock market reports when there are huge fluctuations in the market or tracking shipping when there are orders made. Essentially, almost everything that happens in the real world can be seen as contracts or agreements to achieve a certain goal under certain conditions like turning on lights when the sky gets dark. The only missing puzzle is how we convert these contracts to smart contracts in practical manners.</p>
 ]]></content></item><item><title>What Happens if You Overflow or Underflow Integer in Solidity?</title><link>https://rayspock.com/posts/solidity-integer/</link><pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate><guid>https://rayspock.com/posts/solidity-integer/</guid><description>What if we try to store the result of some arithmetic that falls outside of the declared range&amp;hellip;</description><content type="html"><![CDATA[<p><img src="elevate-overflow-unsplash.jpg" alt="image"></p>
@@ -203,8 +201,7 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@hasnainsik
 ]]></content></item><item><title>How I Became a Developer? (PART2)</title><link>https://rayspock.com/posts/how-i-became-a-developer-2/</link><pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate><guid>https://rayspock.com/posts/how-i-became-a-developer-2/</guid><description>In order to explore the digital world and know how the computer works, I started my undergraduate education in medical&amp;hellip;</description><content type="html"><![CDATA[<p><img src="rayspock-developer-journey-2.jpg" alt="image"></p>
 <p>In order to explore the digital world and know how the computer works, I started my undergraduate education in medical informatics. According to <a href="https://psychology.wikia.org/wiki/Psychology_Wiki">psychology wiki</a>:</p>
 <blockquote>
-<p>Health informatics or medical informatics is the intersection of information science, computer science and health care. It deals with the resources, devices and methods required to optimize the acquisition, storage, retrieval and use of information in health and biomedicine.</p>
-</blockquote>
+<p>Health informatics or medical informatics is the intersection of information science, computer science and health care. It deals with the resources, devices and methods required to optimize the acquisition, storage, retrieval and use of information in health and biomedicine.</p></blockquote>
 <p>You might be wondering why I didn’t choose computer science? Well…the truth was computer science was not the only thing that I was really into but also health care. I remember I asked my sister about what the tech guys did in the hospital because she worked there after graduating. I kept asking questions which were quite hard to answer, such as “how do the programs work to store the data in the database?” and “how do people upload their medical records to the system?”. What piqued my curiosity was how the doctors used information technology to examine the patients. Apparently, I didn’t get the answer from her in the end, because this wasn’t my sisters’ speciality, therefore I ended up finding the answer by myself.</p>
 <p>To be honest, it wasn&rsquo;t an easy route to master both computer science and health care. Even though I had to pull many all-nighters or go through a lot of tough times, I still did it eventually and felt fulfilled and fruitful in the end.</p>
 <p>At a later time, I didn&rsquo;t start my career in the hospital or healthcare industry, even though my expertise was in the health informatics area. The reason was that the technology in medical care was lagging behind. It was hard to grow quickly and to be able to learn a lot of sophisticated technology. It turns out the time I spent outside of the healthcare industry was worth it, I learned a lot about the full lifecycle of the software design process, including requirements definition, prototyping, proof of concept and object-oriented programming etc.</p>
@@ -220,7 +217,7 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@hasnainsik
 <p>Cheers!</p>
 ]]></content></item><item><title>How Do I Clear Cookies for a Specific Site With One Click?</title><link>https://rayspock.com/posts/clean-captain/</link><pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate><guid>https://rayspock.com/posts/clean-captain/</guid><description>Clear your cache and cookies from the website you are visiting in just one click&amp;hellip;</description><content type="html"><![CDATA[<p>I often find that clearing cookies for the website that I’m visiting is a real annoyance because it comes with several steps to use the built-in feature that chrome provides to clear them. Besides, most of the <strong>Chrome Extensions</strong> will clear all the website data and you will lose all your login details for some websites. If you’re lucky you might be fine with signing in.</p>
 <p>But the truth is people (at least in my experience) won’t always remember the username/password when needed. This can become a huge disaster.</p>
-<p>Well, it’s time to build my🚀 chrome extension called <strong>Clean Captain</strong>.</p>
+<p>Well, it’s time to build my&#x1f680; chrome extension called <strong>Clean Captain</strong>.</p>
 <p>Before we jump in and get our hands dirty, we have to understand the pain point.</p>
 <hr>
 <h2 id="how-to-clear-cookies-without-extension">How to clear cookies without extension</h2>
@@ -242,8 +239,8 @@ Photo by <a class="au lc" target="_blank" href="https://unsplash.com/@hasnainsik
 <hr>
 <h2 id="clean-captain">Clean Captain</h2>
 <p>Clean Captain is a lightweight extension that enables you to remove the cookies from most websites that need cookies enabled to work properly. Protect your privacy and delete all activity from specifying websites. You can keep sessions or cookies from those websites you trust.</p>
-<figure><img src="clean-captain-screenshot.png"
-         alt="clean captain"/>
+<figure><img src="/posts/clean-captain/clean-captain-screenshot.png"
+    alt="clean captain">
 </figure>
 
 <hr>
