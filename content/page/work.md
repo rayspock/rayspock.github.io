@@ -19,7 +19,7 @@ comments: false
 ---
 ## Payment Plan Advisor
 
-An AI-powered chatbot built for EDF Energy customers facing financial difficulty. The chatbot assesses each customer's individual circumstances and proposes a tailored, realistic payment plan to help them manage debt — combining conversational AI with human specialist oversight to ensure fairness, compliance, and support for vulnerable customers.
+An AI-powered chatbot built for customers facing financial difficulty. The chatbot assesses each customer's individual circumstances and proposes a tailored, realistic payment plan to help them manage debt — combining conversational AI with human specialist oversight to ensure fairness, compliance, and support for vulnerable customers.
 
 - Served as **Technical Lead** across a cross-functional team of 5 engineers, 2 product owners, and a solution architect — driving technical direction from high-level architecture down to implementation details.
 - Owned end-to-end **DevOps**: designed and managed CI/CD pipelines, infrastructure-as-code, and cloud deployment on AWS, ensuring reliable and repeatable delivery.
@@ -37,8 +37,6 @@ Migrated eligible customers to a new tariff offering reduced electric vehicle ch
 - Led the architecture and implementation of micro frontends in React, successfully integrating them into an existing monolithic application. This modernised the platform, improved scalability and maintainability, and enhanced the customer experience. 
 - Designed and built a Go-based simulation tool to mock and validate GraphQL APIs, extending the legacy API with authentic data. This reduced backend dependencies, accelerated the development lifecycle by 10%, and improved application reliability and resilience.
 
-_[View Project](https://www.edfenergy.com/electric-cars/ev-tariffs)_
-
 ![](/img/ev.gif)
 
 ### Bequest
@@ -46,8 +44,6 @@ _[View Project](https://www.edfenergy.com/electric-cars/ev-tariffs)_
 Personalised pay-as-you-go life insurance and online wills.
 I mainly focused on building the backend and leveraging microservices architectures to achieve the Performance,
 Reliability, Availability and Scalability (PRAS).
-
-_[View Project](https://www.linkedin.com/company/bequestlife/mycompany/)_
 
 ![](/img/bequest.png)
 
@@ -64,7 +60,7 @@ platform to create unique and engaging experiences for users.
 ### Cool X Wallet
 
 Credit Card-Sized Bluetooth hardware wallet to secure customer's crypto assets.
-I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in [SBI](https://www.sbibits.com/).
+I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in [SBI](https://www.crunchbase.com/organization/sbi-bits).
 
 ![](/img/coolx.jpg)
 
