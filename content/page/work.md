@@ -6,6 +6,7 @@ comments: false
 
 | Projects                                    | Tools & Technologies                                                    |
 |---------------------------------------------|-------------------------------------------------------------------------|
+| [Payment Plan Advisor](#payment-plan-advisor)       | JavaScript, React, Node.js, AWS, Amazon Bedrock                         |
 | [OptiCharge](#opticharge)                   | Go, JavaScript, React, Node.js, AWS                                     |
 | [Bequest](#bequest)                         | Go, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
 | [ChatGPT Discord Bot](#chatgpt-discord-bot) | Go, ChatGPT, Instant Messaging, Bot                                     |
@@ -16,6 +17,18 @@ comments: false
 | [Resumake](#resumake)                       | React, JavaScript, Node.js                                              |
 
 ---
+## Payment Plan Advisor
+
+An AI-powered chatbot built for EDF Energy customers facing financial difficulty. The chatbot assesses each customer's individual circumstances and proposes a tailored, realistic payment plan to help them manage debt — combining conversational AI with human specialist oversight to ensure fairness, compliance, and support for vulnerable customers.
+
+- Served as **Technical Lead** across a cross-functional team of 5 engineers, 2 product owners, and a solution architect — driving technical direction from high-level architecture down to implementation details.
+- Owned end-to-end **DevOps**: designed and managed CI/CD pipelines, infrastructure-as-code, and cloud deployment on AWS, ensuring reliable and repeatable delivery.
+- Architected an **event-driven microservices system** underpinning the chatbot, orchestrating services via asynchronous events to decouple components, improve resilience, and support independent scaling — with **Amazon Bedrock Agents** coordinating multi-step reasoning and tool use to assess customer circumstances and generate personalised payment plans.
+- Built **Full Conversation Visibility** for the payment team, surfacing complete chat history to reduce time-to-context and enable faster, better-informed specialist decisions.
+- Engineered a **self-serve provisional payment plan** flow allowing customers to draft their own plans, which are then reviewed and approved by a specialist before going live.
+- Integrated **assisted account actions** — in-flow payment submission and meter reading capture — directly within the chat experience, removing the need for customers to switch channels.
+
+![](/img/payment-plan-advisor.gif)
 
 ### OptiCharge 
 
