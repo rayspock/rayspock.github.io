@@ -58,6 +58,8 @@ Personalised pay-as-you-go life insurance and online wills.
 
 A Discord bot enabling real-time AI-powered natural language conversations using OpenAI's ChatGPT model.
 
+_[View Project](https://github.com/rayspock/go-chatgpt-discord)_
+
 - Built a **ChatGPT-powered Discord bot** in Go integrating the OpenAI API, enabling real-time conversational interactions to automate and enhance user engagement directly within Discord servers.
 
 ![](https://user-images.githubusercontent.com/19812545/239699730-28bc4608-871f-4477-bbb4-fcfbbdbe9a27.gif)
