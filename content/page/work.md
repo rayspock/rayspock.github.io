@@ -30,20 +30,25 @@ An AI-powered chatbot built for customers facing financial difficulty. The chatb
 
 ![](/img/payment-plan-advisor.gif)
 
-### OptiCharge 
+### OptiCharge
 
 Migrated eligible customers to a new tariff offering reduced electric vehicle charging rates during off-peak hours.
 
-- Led the architecture and implementation of micro frontends in React, successfully integrating them into an existing monolithic application. This modernised the platform, improved scalability and maintainability, and enhanced the customer experience. 
-- Designed and built a Go-based simulation tool to mock and validate GraphQL APIs, extending the legacy API with authentic data. This reduced backend dependencies, accelerated the development lifecycle by 10%, and improved application reliability and resilience.
+- Led the **micro frontend architecture** in React, integrating modular UIs into a legacy monolith to modernise the platform and reduce cross-team deployment coupling.
+- Designed and built a **Go-based GraphQL simulation tool** to mock and validate APIs with authentic data, cutting backend dependencies and accelerating the development lifecycle by 10%.
 
 ![](/img/ev.gif)
 
 ### Bequest
 
 Personalised pay-as-you-go life insurance and online wills.
-I mainly focused on building the backend and leveraging microservices architectures to achieve the Performance,
-Reliability, Availability and Scalability (PRAS).
+
+- Integrated the **Stripe payment gateway** using Go, adding a new monetisation channel that increased revenue by 10%.
+- Architected a **multi-tenant white-labelling system** using Go, Docker, and AWS EKS, enabling the business to offer customised solutions to clients and attract new business.
+- Automated the **database migration process** in Go, reducing time spent on manual migration tasks and increasing development speed by 10%.
+- Improved **web performance by 20%** by refactoring the API consumption module in React and Go, measured by enhanced response times.
+- Enhanced the **event-driven microservices architecture** using Go, improving platform throughput, resilience, and scalability across services.
+- Built **dynamic React environment variable injection**, enabling the app to deploy across multiple environments without code changes.
 
 ![](/img/bequest.png)
 
@@ -51,16 +56,17 @@ Reliability, Availability and Scalability (PRAS).
 
 ### ChatGPT Discord Bot
 
-The GPT Discord Bot project, which is developing a bot using OpenAI's ChatGPT model to enhance and automate interactions
-on the popular Discord messaging platform, combining the power of AI technology with the social aspect of a chat
-platform to create unique and engaging experiences for users.
+A Discord bot enabling real-time AI-powered natural language conversations using OpenAI's ChatGPT model.
+
+- Built a **ChatGPT-powered Discord bot** in Go integrating the OpenAI API, enabling real-time conversational interactions to automate and enhance user engagement directly within Discord servers.
 
 ![](https://user-images.githubusercontent.com/19812545/239699730-28bc4608-871f-4477-bbb4-fcfbbdbe9a27.gif)
 
 ### Cool X Wallet
 
-Credit Card-Sized Bluetooth hardware wallet to secure customer's crypto assets.
-I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in [SBI](https://www.crunchbase.com/organization/sbi-bits).
+Credit card-sized Bluetooth hardware wallet to secure customers' crypto assets.
+
+- Engineered **AWS Cloud HSM infrastructure** at [SBI](https://www.crunchbase.com/organization/sbi-bits), providing enterprise-grade secure key storage and cryptographic operations underpinning the hardware wallet.
 
 ![](/img/coolx.jpg)
 
@@ -68,11 +74,13 @@ I built Hardware Security Module (HSM) infrastructure for Cool X Wallet in [SBI]
 
 ### CoolWallet S
 
-Bluetooth hardware wallet for Bitcoin, Ethereum, Litecoin, XRP, Bitcoin Cash, and ERC20 Tokens.
-
-A hardware wallet is a special type of bitcoin wallet which stores the user's private keys in a secure hardware device.
+Bluetooth hardware wallet for Bitcoin, Ethereum, Litecoin, XRP, Bitcoin Cash, and ERC20 Tokens — storing users' private keys in a secure offline hardware device.
 
 _[View Project](https://www.coolwallet.io/)_
+
+- Implemented **top-level security measures** in JavaScript to protect crypto assets, contributing to over 100,000 wallet sales worldwide.
+- Established a **CI/CD pipeline** to automate build and release workflows, improving delivery speed and reducing manual deployment errors.
+- Built and maintained the **React Native mobile application**, delivering a consistent cross-platform wallet management experience across iOS and Android.
 
 ![](/img/coolwallet.jpg)
 
@@ -82,9 +90,11 @@ _[View Project](https://www.coolwallet.io/)_
 
 > Forked from [kyuupichan/electrumx](https://github.com/kyuupichan/electrumx)
 
-Built REST APIs on ElectrumX for people to interact with the blockchain and increase syncing performance by 20%.
+Exposes blockchain data via REST, enabling developers to interact with the blockchain programmatically.
 
 _[View Project](https://github.com/rayspock/electrumx)_
+
+- Built **REST APIs** on ElectrumX to expose blockchain data and interactions, improving node sync performance by 20%.
 
 ![](/img/blockchain.jpg)
 
@@ -92,10 +102,12 @@ _[View Project](https://github.com/rayspock/electrumx)_
 
 ### Sygna Bridge
 
-Sygna Bridges the Gap Between the Virtual Asset Industry and Mainstream Finance. Visually exploring Sygna Bridge which
-enabling VASPs to collect and exchange compliance-required transaction information.
+Compliance infrastructure bridging the virtual asset industry and mainstream finance, enabling VASPs to collect and exchange regulation-required transaction information.
 
 _[View Project](https://www.sygna.io/bridge/)_
+
+- Designed and established the **AWS Serverless and Fargate infrastructure** for Sygna, delivering highly scalable and maintainable REST APIs.
+- Developed **compliance web applications** using JavaScript and asynchronous message queues, increasing user engagement by 15%.
 
 ![](/img/bridge.jpg)
 
@@ -103,12 +115,10 @@ _[View Project](https://www.sygna.io/bridge/)_
 
 ### Resumake
 
-Resumake is a website for automatically generating elegant LaTeX resumes without the need to write any TeX code
-yourself.
-
-As an open-source contributor, I provided a solution by developing a new template to choose from, which enable users to
-highlight their resumes.
+Resumake automatically generates elegant LaTeX resumes without requiring users to write any TeX code themselves.
 
 _[View Project](https://resumake.io/)_
+
+- Contributed a new **resume template** as an open-source addition, giving users a polished layout option that streamlines the process of creating a professional standout resume.
 
 ![](/img/resumake.jpg)
