@@ -17,7 +17,7 @@ comments: false
 | [Resumake](#resumake)                       | React, JavaScript, Node.js                                              |
 
 ---
-## Payment Plan Advisor
+### Payment Plan Advisor
 
 An AI-powered chatbot built for customers facing financial difficulty. The chatbot assesses each customer's individual circumstances and proposes a tailored, realistic payment plan to help them manage debt — combining conversational AI with human specialist oversight to ensure fairness, compliance, and support for vulnerable customers.
 
