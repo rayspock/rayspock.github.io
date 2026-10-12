@@ -6,7 +6,7 @@ comments: false
 
 | Projects                                    | Tools & Technologies                                                    |
 |---------------------------------------------|-------------------------------------------------------------------------|
-| [Payment Plan Advisor](#payment-plan-advisor)       | JavaScript, React, Node.js, AWS, Amazon Bedrock                         |
+| [Payment Plan Advisor](#payment-plan-advisor)       | JavaScript, React, Node.js, AWS, Amazon Bedrock                 |
 | [OptiCharge](#opticharge)                   | Go, JavaScript, React, Node.js, AWS                                     |
 | [Bequest](#bequest)                         | Go, JavaScript, React, Node.js, Docker, Kubernetes, AWS, Event Sourcing |
 | [ChatGPT Discord Bot](#chatgpt-discord-bot) | Go, ChatGPT, Instant Messaging, Bot                                     |
@@ -30,6 +30,8 @@ An AI-powered chatbot built for customers facing financial difficulty. The chatb
 
 ![](/img/payment-plan-advisor.gif)
 
+---
+
 ### OptiCharge
 
 Migrated eligible customers to a new tariff offering reduced electric vehicle charging rates during off-peak hours.
@@ -38,6 +40,8 @@ Migrated eligible customers to a new tariff offering reduced electric vehicle ch
 - Designed and built a **Go-based GraphQL simulation tool** to mock and validate APIs with authentic data, cutting backend dependencies and accelerating the development lifecycle by 10%.
 
 ![](/img/ev.gif)
+
+---
 
 ### Bequest
 
